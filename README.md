@@ -1,6 +1,4 @@
 # AFNetworkingXCTestFail
-Project for reproducing an EXC_BAD_ACCESS error occurring with AFNetworking under XCTest's.
-
 Under some conditions an EXC_BAD_ACCESS occurs in AFHTTPRequestSerializer -init int this code block:
 ```
 for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {

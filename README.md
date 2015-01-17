@@ -10,7 +10,7 @@ for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {
 the line addObserver: forKeyPath is generating the error.
 
 It happens when:
-- keyPath = keyPath:allowsCellularAccess
+- keyPath = allowsCellularAccess
 - when unit testing using XCTest 
 - both on the simulator and on an actual device.
 - AFNetworking version 2.4.0, 2.4.1, 2.5.0
